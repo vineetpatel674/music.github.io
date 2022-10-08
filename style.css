@@ -1,0 +1,117 @@
+.body{
+    background-color: rgb(20, 185, 185);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.navimg{
+    height: 42px;
+    padding: 5px 0px 0px 80px;
+
+
+}
+.ul{
+    padding: 25px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+.navna{
+    padding: 18px 0px 0px 48px;
+    font-size: 21px;
+}
+.navname{
+    padding: 8px 0px 0px 8px;
+    font-size: 30px;
+
+}
+.contener{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-size: 80%;
+    background-image: url(images/nainoa.jpg);
+    position: relative;
+    text-align: center;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+    
+    
+
+
+}
+.icon{
+    margin-top: 14px;
+}
+.icons:hover{
+    margin-top: 14px;
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+}
+.songItem{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    border-style: hidden;
+    background-color: brown;
+    width: 251px;
+    height: 47px;
+    border-radius: 17px 17px 17px 17px;
+    display: flex;
+    justify-content: center;
+}
+.songname{
+    font-family: auto;
+    padding: 13px 11px 0px 0px;
+}
+.songimg{
+    height: 39px;
+    border-radius: 96px;
+    padding: 0px 0px 0px 0px;
+    margin: 4px 13px 0px 0px;
+}
+.songlistplay{
+    padding: 14px 0px 0px 5px;
+
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    padding: 0px 0px 0px 8px;
+}
+.fa-solid, .fas:hover{
+    font-weight: 900;
+    padding: 0px 0px 0px 8px;
+    cursor: pointer;
+
+
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    top: 4vw;
+    display: flex;
+}
+.songinfon{
+    padding: 17px 0px 0px 0px;
+}
